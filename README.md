@@ -1,9 +1,20 @@
-## Application Gateway with WAF, end to end SSL, two IIS servers and HTTP to HTTPS redirection ##
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-application-gateway-2vms-iis-ssl%2Fazuredeploy.json" target="_blank">
+## 
+
+The follwing is based upon https://github.com/Azure/azure-quickstart-templates/tree/master/201-application-gateway-2vms-iis-ssl
+
+I chose it as a basis for sample project because it demonstrated the following best practices:
+
+<ul>
+    <li>Forcing https</li>
+    <li>Good, useful documentation in the form of this readme and the armviz.io</li>    
+ </ul>
+
+## Application Gateway with WAF, end to end SSL, two IIS servers and HTTP to HTTPS redirection ##
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fbobschroeder0729%2FNorthwestMutualDemo%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-application-gateway-2vms-iis-ssl%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fbobschroeder0729%2FNorthwestMutualDemo%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
